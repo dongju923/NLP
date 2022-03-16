@@ -1,7 +1,5 @@
 # NLP(자연어 처리_1.ipynb)
 
----
-
 ## 단어 토큰화  
 1. 파이썬 내장 함수 `split()`을 이용한 토큰화  
 ```from nltk.tokenize import word_tokenize```
@@ -52,3 +50,23 @@
 ### 표제어 추출
 ### 개체명 인식
 ### 의존 구문 분석
+
+---
+# NLP(자연어 처리_2.ipynb)
+
+## 명사 추출  
+1. Mecab을 사용한 명사 추출  
+```python
+from knolpy.tag import Mecab
+tagger = Mecab()
+tagger.nouns()
+```
+## 단어 빈도수 측정  
+1. 단어 빈도수 측정에는 `collections`라이브러리의 `Counter()`함수를 이용
+```python
+from collections import Counter
+```
+## 트리맵 시각화  
+`import squarify`
+## 워드클라우드 시각화
+`from wordcloud import WordCloud
