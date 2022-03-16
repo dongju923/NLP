@@ -2,7 +2,9 @@
 
 ## 단어 토큰화  
 1. 파이썬 내장 함수 `split()`을 이용한 토큰화  
-```from nltk.tokenize import word_tokenize```
+```python
+from nltk.tokenize import word_tokenize
+```
 2. nltk패키지의 `word_tokenize()`함수를 사용한 토큰화  
 #### 한국어의 토큰화는 KoNLPy패키지 사용  
 1. 한국어의 형태소 분석은 `pos()`함수 이용  
@@ -12,7 +14,9 @@
 ---
 ## 문장 토큰화
 1. `split('\n')`을 사용한 토큰화
-```from nltk.tokenize import sent_tokenize```
+```python
+from nltk.tokenize import sent_tokenize
+```
 2. nltk패키지의 `sent_tokenize()`를 사용한 문장 토큰화  
 #### 한국어의 문장 토큰화  
 1. kss라이브러리를 사용해 `split_sentences()`함수를 사용해 문장 토큰화  
@@ -20,19 +24,25 @@
 
 ---
 ## 정규 표현식을 이용한 토큰화
-```from nltk.tokenize import RegexpTokenizer```
+```python
+from nltk.tokenize import RegexpTokenizer
+```
 1. nltk패키지의 `RegexpTokenizer`를 사용  
 2. 한국어도 토큰화 가능  
 
 ---
 ## TextBlob을 이용한 토큰화
-```from textblob import TextBlob```
+```python
+from textblob import TextBlob
+```
 1. `TextBlob()`함수를 이용한 토큰화  
 2. 한국어도 토큰화 가능  
 
 ---
 ## 케라스를 이용한 토큰화
-```from keras.preprocessing.text import text_to_word_sequence```
+```python
+from keras.preprocessing.text import text_to_word_sequence
+```
 1. `text_to_word_sequence()`함수를 사용한 토큰화
 2. 한국어도 토큰화 가능
 
@@ -67,6 +77,10 @@ tagger.nouns()
 from collections import Counter
 ```
 ## 트리맵 시각화  
-`import squarify`
+```python
+import squarify
+```
 ## 워드클라우드 시각화
-`from wordcloud import WordCloud
+```python
+from wordcloud import WordCloud
+```
