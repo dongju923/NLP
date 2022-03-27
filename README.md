@@ -84,3 +84,17 @@ import squarify
 ```python
 from wordcloud import WordCloud
 ```
+
+---
+# NLP(자연어 처리_2.ipynb)
+
+## 텍스트 처리
+## 정규표현식
+## 어휘 빈도-문서 역빈도(TF-IDF)
+## 로지스틱 회귀
+## 나이브 베이스 분류기
+## 서포트 벡터 머신
+## 확률적 경사 하강법
+## 결정 트리
+## 랜덤 포레스트
+## XGBoost
