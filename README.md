@@ -86,7 +86,7 @@ from wordcloud import WordCloud
 ```
 
 ---
-# NLP(자연어 처리_2.ipynb)
+# NLP(자연어 처리_3.ipynb)
 
 ## 텍스트 처리
 ## 정규표현식
